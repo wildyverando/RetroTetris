@@ -1,7 +1,7 @@
 {
   RetroTetris - A simple Tetris game
   Copyright (c) 2024 WildyVerando <wildy@wildyverando.com>
-
+  
   Permission is hereby granted, free of charge, to any person obtaining a copy
   of this software and associated documentation files (the "Software"), to deal
   in the Software without restriction, including without limitation the rights
@@ -100,7 +100,7 @@ implementation
 { TForm1 }
 procedure TForm1.FormDestroy(Sender: TObject);
 begin
-  // Membersihkan area game yang telah ada
+  // Membersihkan area yang telah ada
   FGame.Free;
 end;
 
